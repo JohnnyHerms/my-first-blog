@@ -1,0 +1,14 @@
+Start VEnv
+C:\Users\Herms> 
+myvenv\Scripts\activate
+
+Run Local Server
+(myvenv) C:\Users\Herms\djangogirls>
+python manage.py runserver
+
+Git Push
+$ git status
+$ git add -A .
+$ git status
+$ git commit -m "(Comments)"
+$ git push
