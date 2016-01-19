@@ -1,14 +1,21 @@
-Start VEnv
-C:\Users\Herms> 
-myvenv\Scripts\activate
+Start V. Env
+	C:\Users\Herms> 
+	myvenv\Scripts\activate
 
 Run Local Server
-(myvenv) C:\Users\Herms\djangogirls>
-python manage.py runserver
+	(myvenv) C:\Users\Herms\djangogirls>
+	python manage.py runserver
 
 Git Push
-$ git status
-$ git add -A .
-$ git status
-$ git commit -m "(Comments)"
-$ git push
+	$ git status
+	$ git add -A .
+	$ git status
+	$ git commit -m "(Comments)"
+	$ git push
+
+Python Anywhere
+	$ cd my-first-blog
+	$ source myvenv/bin/activate
+	(myvenv)$ git pull
+	[...]
+	(myvenv)$ python manage.py collectstatic
